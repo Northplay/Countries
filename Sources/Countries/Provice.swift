@@ -454,6 +454,7 @@ public enum Province: String, Equatable, Hashable, CaseIterable, Codable {
     case mh = "MH"
     case mp = "MP"
     case pw = "PW"
+    case unknown = "-"
     
     public init(from decoder: Decoder)throws {
         let container = try decoder.singleValueContainer()
